@@ -116,6 +116,20 @@ public class Main extends JFrame {
                 }
             }
         });
+
+        openPattern.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                fc.showOpenDialog(getComponent(0));
+                try {
+                    BufferedImage chosenImage = ImageIO.read(fc.getSelectedFile());
+                    pattern.setIcon(new ImageIcon(chosenImage));
+                    patternImage = chosenImage;
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
         return menu;
     }
 
