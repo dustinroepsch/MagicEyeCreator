@@ -62,13 +62,18 @@ public class Main extends JFrame {
                     }
                 }
 
-                fc.showOpenDialog(getComponent(0));
-                try {
-                    ImageIO.write(render,"png",fc.getSelectedFile());
-                    JOptionPane.showMessageDialog(getComponent(0),"Save worked!");
-                } catch (IOException e1) {
-                    e1.printStackTrace();
-                    JOptionPane.showMessageDialog(getComponent(0),"an error occured!");
+                int returnval = fc.showOpenDialog(getComponent(0));
+                if(returnval == JFileChooser.APPROVE_OPTION){
+                    try {
+                        ImageIO.write(render,"png",fc.getSelectedFile());
+                        JOptionPane.showMessageDialog(getComponent(0),"Save worked!");
+                    } catch (IOException e1) {
+                        e1.printStackTrace();
+                        JOptionPane.showMessageDialog(getComponent(0),"an error occurred!");
+                    }
+                }
+                else{
+                    JOptionPane.showMessageDialog(getComponent(0),"Save Cancelled!");
                 }
 
             }

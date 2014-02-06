@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MagicEyeCreator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MagicEyeCreator_jar</output-path>
+    <root id="archive" name="MagicEyeCreator.jar">
+      <element id="module-output" name="MagicEyeCreator" />
+    </root>
+  </artifact>
+</component>
