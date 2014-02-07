@@ -96,13 +96,30 @@ public class Main extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 BufferedImage image = new BufferedImage(100,500, BufferedImage.TYPE_3BYTE_BGR);
-                for(int i = 0; i < 100; i++){
-                    for (int j = 0; j < 500; j++){
-                        image.setRGB(i,j,((int)(Math.random()*2) == 0)? 0: 16777215);
+                Object[] possibleValues = { "Color", "Black and white"};
+                Object selectedValue = JOptionPane.showInputDialog(null,
+                        "What type of pattern?", "Input",
+                        JOptionPane.INFORMATION_MESSAGE, null,
+                        possibleValues, possibleValues[0]);
+                String choiceStr = (String) selectedValue;
+                if(choiceStr != null && choiceStr.equals("Color")){
+                    for(int i = 0; i < 100; i++){
+                        for (int j = 0; j < 500; j++){
+                            image.setRGB(i,j,(int) (Math.random()*16777216));
+                        }
                     }
                 }
-                pattern.setIcon(new ImageIcon(image));
-                patternImage = image;
+                else{
+                    for(int i = 0; i < 100; i++){
+                        for (int j = 0; j < 500; j++){
+                            image.setRGB(i,j,((int)(Math.random()*2) == 0)? 0: 16777215);
+                        }
+                    }
+                }
+                if(choiceStr != null){
+                    pattern.setIcon(new ImageIcon(image));
+                    patternImage = image;
+                }
             }
         });
 

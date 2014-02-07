@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc0e0f7-4b5e-41ba-a0c4-7ab11aea10e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/MagicEyeCreator_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -77,17 +75,16 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="21" selection-start="2776" selection-end="2776" vertical-scroll-proportion="1.120915" vertical-offset="572" max-vertical-offset="2788">
+            <state line="122" column="13" selection-start="4646" selection-end="4646" vertical-scroll-proportion="0.8333333" vertical-offset="1564" max-vertical-offset="3077">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1415#2905#0" expanded="true" />
                 <element signature="e#2894#2895#0" expanded="true" />
-                <element signature="e#3291#3828#0" expanded="true" />
-                <element signature="e#3817#3818#0" expanded="true" />
-                <element signature="e#3868#4359#0" expanded="true" />
-                <element signature="e#4348#4349#0" expanded="true" />
-                <element signature="e#4401#4900#0" expanded="true" />
-                <element signature="e#4889#4890#0" expanded="true" />
+                <element signature="e#3291#4656#0" expanded="true" />
+                <element signature="e#4696#5187#0" expanded="true" />
+                <element signature="e#5176#5177#0" expanded="true" />
+                <element signature="e#5229#5728#0" expanded="true" />
+                <element signature="e#5717#5718#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -403,7 +400,11 @@
       <created>1391638070739</created>
       <updated>1391638070739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1391730627765</created>
+      <updated>1391730627765</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -465,12 +466,11 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1415#2905#0" expanded="true" />
             <element signature="e#2894#2895#0" expanded="true" />
-            <element signature="e#3291#3828#0" expanded="true" />
-            <element signature="e#3817#3818#0" expanded="true" />
-            <element signature="e#3868#4359#0" expanded="true" />
-            <element signature="e#4348#4349#0" expanded="true" />
-            <element signature="e#4401#4900#0" expanded="true" />
-            <element signature="e#4889#4890#0" expanded="true" />
+            <element signature="e#3291#4656#0" expanded="true" />
+            <element signature="e#4696#5187#0" expanded="true" />
+            <element signature="e#5176#5177#0" expanded="true" />
+            <element signature="e#5229#5728#0" expanded="true" />
+            <element signature="e#5717#5718#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -505,17 +505,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="21" selection-start="2776" selection-end="2776" vertical-scroll-proportion="1.120915" vertical-offset="572" max-vertical-offset="2788">
+        <state line="122" column="13" selection-start="4646" selection-end="4646" vertical-scroll-proportion="0.8333333" vertical-offset="1564" max-vertical-offset="3077">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1415#2905#0" expanded="true" />
             <element signature="e#2894#2895#0" expanded="true" />
-            <element signature="e#3291#3828#0" expanded="true" />
-            <element signature="e#3817#3818#0" expanded="true" />
-            <element signature="e#3868#4359#0" expanded="true" />
-            <element signature="e#4348#4349#0" expanded="true" />
-            <element signature="e#4401#4900#0" expanded="true" />
-            <element signature="e#4889#4890#0" expanded="true" />
+            <element signature="e#3291#4656#0" expanded="true" />
+            <element signature="e#4696#5187#0" expanded="true" />
+            <element signature="e#5176#5177#0" expanded="true" />
+            <element signature="e#5229#5728#0" expanded="true" />
+            <element signature="e#5717#5718#0" expanded="true" />
           </folding>
         </state>
       </provider>
