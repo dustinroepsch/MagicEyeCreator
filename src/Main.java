@@ -56,7 +56,14 @@ public class Main extends JFrame {
                         else{
                             //System.out.println("" + x + " " + y);
                             //System.out.println(getOffset(mapImage.getRGB(x, y)));
-                            render.setRGB(x, y, render.getRGB(x - (100 - getOffset(mapImage.getRGB(x, y))), y));
+                            try{
+                                render.setRGB(x, y, render.getRGB(x - (100 - getOffset(mapImage.getRGB(x, y))), y));
+                            }
+                            catch (ArrayIndexOutOfBoundsException e1){
+                                JOptionPane.showMessageDialog(getComponent(0),"Map format error! Wrong image size or" +
+                                        " depth inside pattern bounds!");
+                                System.exit(1);
+                            }
                         }
 
                     }
